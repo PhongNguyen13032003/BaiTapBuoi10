@@ -99,12 +99,12 @@ namespace BaiTap
             public char Answer { get; }
             public Question(string text, string optionA, string optionB, string optionC, string optionD, char answer)
             {
-                //Text = text;
-                //OptionA = optionA;
-                //OptionB = optionB;
-                //OptionC = optionC;
-                //OptionD = optionD;
-                //Answer = answer;
+                Text = text;
+                OptionA = optionA;
+                OptionB = optionB;
+                OptionC = optionC;
+                OptionD = optionD;
+                Answer = answer;
             }
         }
     }
